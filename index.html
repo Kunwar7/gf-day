@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f8f3ed" />
+  <title>A Special Delivery — For Aanchal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grain"></div><div class="cursor-glow"></div>
+  <main>
+    <section class="hero page" id="home">
+      <div class="stars" aria-hidden="true"></div>
+      <p class="eyebrow">with all my love</p>
+      <h1>A Special Delivery<br><em>Has Arrived</em></h1>
+      <p class="for">For Aanchal <span>♡</span></p>
+      <div class="gift-scene" id="giftScene" aria-label="A gift box">
+        <span class="spark s1">✦</span><span class="spark s2">✧</span><span class="spark s3">✦</span>
+        <div class="gift"><div class="lid"><i></i></div><div class="box"><i></i><b></b></div></div>
+      </div>
+      <button class="primary" id="openGift">Open Package <span>→</span></button>
+      <p class="hint">a little world, made just for you</p>
+    </section>
+
+    <div id="story" hidden>
+      <nav><a href="#letter">letter</a><a href="#reasons">little things</a><a href="#memories">memories</a><a href="#poems">poems</a><a href="#playlist">music</a></nav>
+      <section class="intro page"><p class="eyebrow">chapter one</p><h2>Some things are<br>too precious for<br><em>ordinary words.</em></h2><span class="scroll-mark">scroll to unfold <b>↓</b></span></section>
+
+      <section class="letter-section page" id="letter">
+        <div class="section-title"><p class="eyebrow">01 / a letter for you</p><h2>Written from<br><em>my heart.</em></h2></div>
+        <button class="sealed-letter reveal" id="letterOpen" aria-label="Open a letter"><span class="seal">A</span><span class="letter-label">for Aanchal</span></button>
+        <p class="tiny-note">tap the seal to open</p>
+      </section>
+
+      <section class="reasons page" id="reasons">
+        <div class="section-title centered"><p class="eyebrow">02 / little things</p><h2>Reasons I<br><em>love you.</em></h2><p class="sub">There are more than I could ever fit into envelopes.</p></div>
+        <div class="envelopes">
+          <button class="envelope e1" data-message="I feel seen when I'm with you."><span>01</span></button>
+          <button class="envelope e2" data-message="Your smile — the kind that makes every room feel warmer."><span>02</span></button>
+          <button class="envelope e3" data-message="For your soft heart, and the extraordinary care you give the world."><span>03</span></button>
+          <button class="envelope e4" data-message="Because you make every moment brighter and lively."><span>04</span></button>
+          <button class="envelope e5" data-message="You make forever feel possible."><span>05</span></button>
+        </div>
+      </section>
+
+      <section class="memories page" id="memories">
+        <div class="section-title"><p class="eyebrow">03 / caught in time</p><h2>A few of my<br><em>favourite frames.</em></h2></div>
+        <div class="fairylights" aria-hidden="true"></div>
+        <div class="polaroids">
+          <button class="polaroid p1" data-caption="A little reflection of us."><img class="photo" src="images/photo1.jpg" alt="A mirror photo together"><b>just us</b></button>
+          <button class="polaroid p2" data-caption="A beautiful day, standing right beside you."><img class="photo" src="images/photo2.jpg" alt="A photo of us together"><b>side by side</b></button>
+          <button class="polaroid p3" data-caption="My favourite place has always been close to you."><img class="photo" src="images/photo3.jpg" alt="A close photo together"><b>my favourite place</b></button>
+        </div>
+        <p class="replace-note">A few little moments, saved forever.</p>
+      </section>
+
+      <section class="poems page" id="poems">
+        <div class="section-title centered"><p class="eyebrow">04 / poem space</p><h2>Pressed between<br><em>the pages.</em></h2></div>
+        <div class="poem-book">
+          <article class="poem-page"><p class="poem-number">I</p><h3>An Eternity With You</h3><p class="poem-body">To call you mine,<br>To be yours,<br>A love beyond space and time.<br><br>Cupid kissed the string,<br>The gods became our guide,<br>And fate crowned you my everything.<br><br>Forever feels little with you,<br>For I wish we last an eternity,<br>As my heart finds its home in you.<br><br>You are my love,<br>My sunshine,<br>The sunflower in my life.<br>I love you baby.</p><span class="flower">❋</span></article>
+        </div>
+      </section>
+
+      <section class="playlist page" id="playlist">
+        <div class="section-title"><p class="eyebrow">05 / play this softly</p><h2>The soundtrack<br><em>of us.</em></h2></div>
+        <div class="player"><div class="record"><div></div></div><div class="tonearm"></div><p>Side A · for the two of us</p></div>
+        <div class="tracks">
+          <button class="track"><span class="cover c1">01</span><span><b>Valentine</b><small>Laufey</small></span><i>♡</i></button>
+          <button class="track"><span class="cover c2">02</span><span><b>The Less I Know The Better</b><small>Tame Impala</small></span><i>♡</i></button>
+          <button class="track"><span class="cover c3">03</span><span><b>Be My Baby</b><small>The Ronettes</small></span><i>♡</i></button>
+          <button class="track"><span class="cover c4">04</span><span><b>Fly Me To The Moon</b><small>Frank Sinatra</small></span><i>♡</i></button>
+          <button class="track"><span class="cover c5">05</span><span><b>American Wedding</b><small>Frank Ocean</small></span><i>♡</i></button>
+          <button class="track"><span class="cover c6">06</span><span><b>Aisay Kaisay</b><small>Hassan Raheem</small></span><i>♡</i></button>
+          <button class="track"><span class="cover c7">07</span><span><b>A Night To Remember</b><small>beabadoobee</small></span><i>♡</i></button>
+        </div>
+      </section>
+
+      <section class="timeline page" id="timeline"><div class="section-title centered"><p class="eyebrow">06 / us, so far</p><h2>And then there<br>was <em>forever.</em></h2></div><ol><li>We Met</li><li>Friends</li><li>The Confession</li><li>First Date</li><li>Our Adventures</li><li>Long Distance</li><li>Forever</li></ol></section>
+      <section class="final page"><div class="night-stars"></div><p class="eyebrow">always, in every universe</p><h2>If I had to live every life again, I’d still hope fate found its way back to <em>you.</em></h2><button class="primary light" id="restart">Restart Our Story <span>↺</span></button></section>
+    </div>
+  </main>
+  <div class="modal" id="modal" aria-hidden="true"><button class="modal-close" aria-label="Close">×</button><div class="modal-card" id="modalCard"></div></div>
+  <script src="script.js"></script>
+</body></html>
